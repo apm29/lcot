@@ -1,20 +1,24 @@
-.container {
+.app {
     margin: auto;
-    max-width: 500px;
     font-family: sans-serif;
+    @apply flex w-100vw h-100vh overflow-hidden
+}
+.main{
+    @apply overflow-auto flex-grow
+}
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.aside-nav {
+    @apply shadow-xl min-w-12rem
 }
 
 .heading {
     color: rebeccapurple;
 }
-.nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-.nav-link-item {
-    padding-right: 2rem;
-}
-.nav-link-text {
-    color: black;
-}
+

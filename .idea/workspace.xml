@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81a1289-ab7c-475c-81f1-f8a4d4f8ebce" name="Default Changelist" comment="">
+    <list default="true" id="b81a1289-ab7c-475c-81f1-f8a4d4f8ebce" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavigationItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/typography.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windi.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/team.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,12 +55,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/about" />
+      <recent name="$PROJECT_DIR$/src/pages/team" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/data" />
     </key>
   </component>
   <component name="RunManager" selected="npm.develop">
@@ -89,8 +108,16 @@
       <option name="presentableId" value="Default" />
       <updated>1642577325008</updated>
       <workItem from="1642577333758" duration="3943000" />
-      <workItem from="1642581793747" duration="5224000" />
+      <workItem from="1642581793747" duration="27159000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1642641215722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642641215722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

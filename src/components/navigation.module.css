@@ -1,0 +1,15 @@
+.nav-sub{
+    @apply px-4 !important;
+}
+.nav-text{
+    @apply text-xs text-gray-600;
+}
+
+.nav-link-text {
+    @apply cursor-pointer text-xs hover:underline text-gray-600;
+    background-image: none;
+}
+
+.nav-icon {
+    @apply min-w-1.25rem
+}
